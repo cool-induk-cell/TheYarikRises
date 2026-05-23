@@ -45,6 +45,10 @@ footer {
     flex-direction: row;
 }
 
+footer > .screen {
+    width: 120px;
+}
+
 main {
     display: flex;
     flex-direction: row;
