@@ -1,10 +1,19 @@
+@font-face {
+    font-family: 'PixeloidSans';
+    src: url('pixeloidSans.woff') format('woff'); /* Основной формат */
+    font-weight: normal; /* Начертание: normal (400), bold (700) и т.д. */
+    font-style: normal;  /* Стиль: normal или italic */
+    font-display: swap;  /* Текст виден сразу, пока шрифт грузится */
+}
+
+
 body {
     background-image: url('background1.gif');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    font-family: "Pixeloid Sans";
+    font-family: "PixeloidSans";
 }
 
 header {
