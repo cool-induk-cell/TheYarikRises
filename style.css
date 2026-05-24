@@ -141,13 +141,13 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    width: 33%;
+    width: 66%;
 }
 .right {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    width: 33%;
+    width: 66%;
 }
 .edik {
     display: flex;
