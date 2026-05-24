@@ -206,7 +206,7 @@ p {
         height: 75px;
     }
     .screen > p {
-        font-size: 10px;
+        font-size: 15px;
     }
     .headerRight {
         flex-wrap: wrap;
