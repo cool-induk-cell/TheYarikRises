@@ -103,6 +103,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 33%
 }
 
 a {
@@ -140,7 +141,13 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: row;
+    width: 33%;
+}
+.right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 33%;
 }
 .edik {
     display: flex;
@@ -177,5 +184,4 @@ p {
     padding-right: 10px;
     margin: 25px;
     text-align: center;
-    align-items: center;
 }
