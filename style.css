@@ -220,10 +220,4 @@ p {
     .headerLeft > a {
         font-size: 15px;
     }
-    .left {
-        border: #c414ff solid 1px;
-    }
-    .right {
-        border: #c414ff solid 1px;
-    }
 }
