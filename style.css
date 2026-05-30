@@ -63,6 +63,14 @@ main {
     width: 100%;
     align-items: center;
 }
+.edison2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
 
 .top-image {
     position: fixed; /* Фиксируем на экране */
@@ -110,6 +118,35 @@ main {
     text-align: center;
     flex-direction: row;
 }
+.plotText {
+    width: 90%;
+    box-shadow: rgb(196, 20, 255, 0.5) 4px 4px 8px;
+    border: 2px solid #c414ff;
+    border-radius: 10px;
+    background-image: url('back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+}
+.person {
+    box-shadow: rgb(196, 20, 255, 0.5) 4px 4px 8px;
+    border: 2px solid #c414ff;
+    border-radius: 10px;
+    background-image: url('back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    flex-direction: row;
+    padding: 10px;
+}
+.person > img {
+    width: 60%;
+}
 
 .textScreen > img {
     border-radius: 10px;
@@ -141,7 +178,7 @@ a {
 }
 
 a:hover {
-    transform: scale(1.1); color: #b700ff;
+    color: #b700ff;
 }
 
 h1 {
@@ -219,6 +256,40 @@ p {
     height: 75%;
 }
 
+.popa {
+    width: 330%;
+}
+.popa > img {
+    border-radius: 10px;
+    border: 2px solid #c414ff;
+
+}
+.leftPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: first;
+    width: 33%;
+    border: 2px solid #c414ff;
+    border-radius: 10px;
+    background-image: url('back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    padding: 10px;
+}
+.leftPanel > p {
+    font-size: 35px;
+}
+
+.rightPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 67%
+}
+
 @media (max-width: 980px) {
     main {
         display: flex;
@@ -264,5 +335,17 @@ p {
     }
     .perdoon {
         width: 350px;
+    }
+    .popa {
+        width: 100%;
+    }
+    .person {
+        flex-direction: column;
+    }
+    .leftPanel > p {
+        font-size: 20px;
+    }
+    .leftPanel > a {
+        font-size: 15px;
     }
 }
